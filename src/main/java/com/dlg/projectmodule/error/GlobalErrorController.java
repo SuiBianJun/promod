@@ -10,6 +10,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ *
+ * 同一全局处理没有捕获到的异常和错误
+ *
+ */
+
 @Controller
 public class GlobalErrorController implements ErrorController {
 
@@ -30,7 +36,7 @@ public class GlobalErrorController implements ErrorController {
 
         mav.addObject("statuc_code", statusCode);
         // 添加其他信息
-        mav.setViewName("/error/4xx");// 需要后台模板支持，才能将数据推送到页面
+        mav.setViewName("/error/4xx");// 需要后台模板支持，才能将数据封装到页面
 
         return mav;
 
