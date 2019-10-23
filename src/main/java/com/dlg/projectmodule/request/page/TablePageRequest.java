@@ -5,8 +5,7 @@ import lombok.Data;
 @Data
 public class TablePageRequest {
 
-    private int page;
-    private int limits;
-    private String data;
+    public int page;
+    public int limits;
 
 }
