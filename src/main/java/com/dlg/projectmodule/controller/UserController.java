@@ -1,9 +1,11 @@
 package com.dlg.projectmodule.controller;
 
 import com.dlg.projectmodule.request.UserInfo;
+import com.dlg.projectmodule.request.UserTablePageRequest;
+import com.dlg.projectmodule.request.page.TablePageRequest;
 import com.dlg.projectmodule.response.Response;
 import com.dlg.projectmodule.response.UserVO;
-import com.dlg.projectmodule.response.page.TablePageRequest;
+import com.dlg.projectmodule.response.page.PageResponse;
 import com.dlg.projectmodule.serviceimpl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -25,7 +27,20 @@ public class UserController {
     // 解析URL中的参数为对应的数据结构
     @GetMapping("list_page")
     public Response<List<UserVO>> getUserByPage(TablePageRequest tablePageRequest){
-        return new Response<>(userServiceImpl.listUser());
+        return new Response<>(userServiceImpl.listUser(tablePageRequest));
+    }
+
+    // 解析URL中的参数为对应的数据结构
+    // 参数中必须存在查询参数
+    @GetMapping("list_page_byid")
+    public Response<List<UserVO>> getUserByPage(UserTablePageRequest userTablePageRequest){
+        return new Response<>(userServiceImpl.listUser(userTablePageRequest));
+    }
+
+    // 自定义分页参数返回
+    @GetMapping("list_page_byid2")
+    public Response<PageResponse<List<UserVO>>> getUserByPage2(UserTablePageRequest userTablePageRequest){
+        return new Response<>(userServiceImpl.listUser2(userTablePageRequest));
     }
 
     @PostMapping("add")

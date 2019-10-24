@@ -11,6 +11,11 @@ spring:
   thymeleaf:
     enabled: true
     prefix: classpath:/templates
+  redis:
+    #password: 123456
+    host: 192.168.56.1
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 8080
@@ -21,3 +26,4 @@ server:
 logging:
   file: promod.log
   path: ./
+

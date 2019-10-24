@@ -1,5 +1,6 @@
 package com.dlg.projectmodule.request.specification;
 
+import com.dlg.projectmodule.entity.Book;
 import com.dlg.projectmodule.entity.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.data.jpa.domain.Specification;
@@ -9,21 +10,21 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-public class UserSpecification implements Specification<User> {
+public class BookSpecification implements Specification<Book> {
 
-    User user;
+    Book book;
 
-    public UserSpecification(User user){
-        this.user = new User();
-        BeanUtils.copyProperties(user, this.user);
+    public BookSpecification(Book book){
+        this.book = new Book();
+        BeanUtils.copyProperties(book, this.book);
     }
 
     @Override
-    public Predicate toPredicate(Root<User> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+    public Predicate toPredicate(Root<Book> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
 
         // 条件查询
 
-        Predicate predicate=criteriaBuilder.gt(root.get("id"), user.getId());
+        Predicate predicate=criteriaBuilder.gt(root.get("price"), book.getPrice());
 
         return predicate;
     }
