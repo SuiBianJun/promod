@@ -3,7 +3,6 @@ package com.dlg.projectmodule.entity;
 import lombok.Data;
 import org.springframework.data.redis.core.RedisHash;
 
-import javax.persistence.Column;
 import javax.persistence.Id;
 
 @RedisHash("book")

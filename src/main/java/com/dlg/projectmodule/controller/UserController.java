@@ -53,4 +53,10 @@ public class UserController {
         return new Response<>(userServiceImpl.user(userId));
     }
 
+    // 修改user 信息
+    @PostMapping("/{userId}")
+    public Response modifyUser(@PathVariable("userId") Integer userId, @RequestBody UserInfo userInfo){
+
+        return new Response(userServiceImpl.modifyUser(userId, userInfo));
+    }
 }

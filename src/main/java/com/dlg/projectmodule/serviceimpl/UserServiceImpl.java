@@ -14,6 +14,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -105,5 +107,25 @@ public class UserServiceImpl {
         return userVO;
     }
 
+    // spring事务管理, 整个方法执行过程中出现异常可触发回滚
+    // 事务存在的问题：
+    // 第一类更新丢失：（事务中不会出现，数据修改会加锁）事务A撤销，导致事务X的修改也被回滚
+    // 脏读：事务A读取了事务X修改了但未提交的数据
+    // 不可重复读：事务A第一次读取col_x的的值x后，事务B对col_x修改为y（不管是否提交），然后事务A再次读取col_x时变成了y,两次读取结果不一致
+    // 幻读：事务A第一次获取表T的记录有x条，然后事务B对对表T的记录进行了增删，导致事务A再次读取时记录变为了y条（表级）
+    // 第二类丢失更新：事务A提交的修改被事务B覆盖（事务A与事务B的执行时间有重合）
+    @Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRED)
+    public Boolean modifyUser(Integer userId, UserInfo userInfo){
+
+        User user = new User();
+        BeanUtils.copyProperties(userInfo, user);
+        user.setId(userId);
+        //userRepo.updateUserInfo(user);
+        userRepo.save(user);
+
+        int a = 1 / 0;
+
+        return true;
+    }
 
 }
