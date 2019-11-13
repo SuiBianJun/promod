@@ -1,4 +1,4 @@
-package com.dlg.projectmodule.aop;
+package com.dlg.projectmodule.config.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

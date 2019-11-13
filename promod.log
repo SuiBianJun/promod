@@ -1,2 +1,347 @@
 2019-11-13 08:35:41.498  WARN 131888 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h49m22s359ms329µs305ns).
 2019-11-13 08:37:14.360  WARN 131888 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m10s27ms507µs939ns).
+2019-11-13 17:02:46.127  INFO 196396 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Starting ProjectmoduleApplication on ipanel-PC with PID 196396 (E:\ideaProject\projectmodule\target\classes started by Administrator in E:\ideaProject\projectmodule)
+2019-11-13 17:02:46.135  INFO 196396 --- [restartedMain] c.d.p.ProjectmoduleApplication           : No active profile set, falling back to default profiles: default
+2019-11-13 17:02:47.563  INFO 196396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-13 17:02:47.564  INFO 196396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-13 17:02:52.151  INFO 196396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:02:52.152  INFO 196396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:02:52.284  INFO 196396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101ms. Found 2 repository interfaces.
+2019-11-13 17:02:52.329  INFO 196396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:02:52.330  INFO 196396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:02:52.495  INFO 196396 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dlg.projectmodule.repo.UserRepo.
+2019-11-13 17:02:52.505  INFO 196396 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 1 repository interfaces.
+2019-11-13 17:02:53.519  INFO 196396 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$355d8167] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:02:54.340  INFO 196396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:02:54.380  INFO 196396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-13 17:02:54.380  INFO 196396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 17:02:54.386  INFO 196396 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:02:54.387  INFO 196396 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:02:54.387  INFO 196396 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:02:54.523  INFO 196396 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:02:54.773  INFO 196396 --- [restartedMain] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring embedded WebApplicationContext
+2019-11-13 17:02:54.773  INFO 196396 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7209 ms
+2019-11-13 17:02:55.232  INFO 196396 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-13 17:02:57.010  INFO 196396 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-13 17:02:57.932  INFO 196396 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-13 17:02:58.908  INFO 196396 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-13 17:02:58.913  INFO 196396 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-13 17:02:59.275  INFO 196396 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-13 17:02:59.623  INFO 196396 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-13 17:03:00.941  INFO 196396 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-13 17:03:02.046  INFO 196396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-13 17:03:02.443  INFO 196396 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-13 17:03:03.347  WARN 196396 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-13 17:03:03.558  INFO 196396 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-13 17:03:03.726  INFO 196396 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:03:04.174  INFO 196396 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-11-13 17:03:04.227  INFO 196396 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-11-13 17:03:04.319  INFO 196396 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-11-13 17:03:04.470  INFO 196396 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_1
+2019-11-13 17:03:04.477  INFO 196396 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_2
+2019-11-13 17:03:04.517  INFO 196396 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserUsingGET_1
+2019-11-13 17:03:04.522  INFO 196396 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPageUsingGET_1
+2019-11-13 17:03:04.608  INFO 196396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/PROMOD'
+2019-11-13 17:03:04.610  INFO 196396 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Started ProjectmoduleApplication in 28.42 seconds (JVM running for 34.666)
+2019-11-13 17:03:17.456  INFO 196396 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:03:17.468  INFO 196396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:03:17.494  INFO 196396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-11-13 17:03:17.596  WARN 196396 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "login"]
+2019-11-13 17:06:32.954  INFO 196400 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Starting ProjectmoduleApplication on ipanel-PC with PID 196400 (E:\ideaProject\projectmodule\target\classes started by Administrator in E:\ideaProject\projectmodule)
+2019-11-13 17:06:32.957  INFO 196400 --- [restartedMain] c.d.p.ProjectmoduleApplication           : No active profile set, falling back to default profiles: default
+2019-11-13 17:06:33.028  INFO 196400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-13 17:06:33.028  INFO 196400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-13 17:06:33.827  INFO 196400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:06:33.827  INFO 196400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:06:33.891  INFO 196400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 2 repository interfaces.
+2019-11-13 17:06:33.902  INFO 196400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:06:33.904  INFO 196400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:06:33.919  INFO 196400 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dlg.projectmodule.repo.UserRepo.
+2019-11-13 17:06:33.927  INFO 196400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
+2019-11-13 17:06:34.229  INFO 196400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$89b12ff9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:06:34.691  INFO 196400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:06:34.710  INFO 196400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-13 17:06:34.710  INFO 196400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 17:06:34.715  INFO 196400 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:06:34.716  INFO 196400 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:06:34.716  INFO 196400 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:06:34.719  INFO 196400 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:06:34.819  INFO 196400 --- [restartedMain] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring embedded WebApplicationContext
+2019-11-13 17:06:34.820  INFO 196400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1792 ms
+2019-11-13 17:06:34.967  INFO 196400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-13 17:06:35.089  INFO 196400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-13 17:06:35.130  INFO 196400 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-13 17:06:35.174  INFO 196400 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-13 17:06:35.176  INFO 196400 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-13 17:06:35.287  INFO 196400 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-13 17:06:35.403  INFO 196400 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-13 17:06:35.856  INFO 196400 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-13 17:06:36.224  INFO 196400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-13 17:06:36.445  INFO 196400 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-13 17:06:36.833  WARN 196400 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-13 17:06:36.948  INFO 196400 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-13 17:06:37.101  INFO 196400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:06:37.357  INFO 196400 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-11-13 17:06:37.371  INFO 196400 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-11-13 17:06:37.396  INFO 196400 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-11-13 17:06:37.487  INFO 196400 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_1
+2019-11-13 17:06:37.494  INFO 196400 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_2
+2019-11-13 17:06:37.523  INFO 196400 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserUsingGET_1
+2019-11-13 17:06:37.529  INFO 196400 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPageUsingGET_1
+2019-11-13 17:06:37.572  INFO 196400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/PROMOD'
+2019-11-13 17:06:37.575  INFO 196400 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Started ProjectmoduleApplication in 5.15 seconds (JVM running for 5.785)
+2019-11-13 17:06:41.202  INFO 196400 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:06:41.202  INFO 196400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:06:41.213  INFO 196400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-11-13 17:06:41.255  WARN 196400 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "login"]
+2019-11-13 17:09:03.571  INFO 197136 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Starting ProjectmoduleApplication on ipanel-PC with PID 197136 (E:\ideaProject\projectmodule\target\classes started by Administrator in E:\ideaProject\projectmodule)
+2019-11-13 17:09:03.573  INFO 197136 --- [restartedMain] c.d.p.ProjectmoduleApplication           : No active profile set, falling back to default profiles: default
+2019-11-13 17:09:03.610  INFO 197136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-13 17:09:03.610  INFO 197136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-13 17:09:04.446  INFO 197136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:09:04.446  INFO 197136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:09:04.509  INFO 197136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 2 repository interfaces.
+2019-11-13 17:09:04.519  INFO 197136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:09:04.520  INFO 197136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:09:04.533  INFO 197136 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dlg.projectmodule.repo.UserRepo.
+2019-11-13 17:09:04.540  INFO 197136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 1 repository interfaces.
+2019-11-13 17:09:04.837  INFO 197136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45c4927d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:09:05.299  INFO 197136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:09:05.319  INFO 197136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-13 17:09:05.320  INFO 197136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 17:09:05.327  INFO 197136 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:09:05.327  INFO 197136 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:09:05.327  INFO 197136 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:09:05.331  INFO 197136 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:09:05.422  INFO 197136 --- [restartedMain] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring embedded WebApplicationContext
+2019-11-13 17:09:05.423  INFO 197136 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1813 ms
+2019-11-13 17:09:05.565  INFO 197136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-13 17:09:05.689  INFO 197136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-13 17:09:05.731  INFO 197136 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-13 17:09:05.777  INFO 197136 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-13 17:09:05.778  INFO 197136 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-13 17:09:05.876  INFO 197136 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-13 17:09:05.986  INFO 197136 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-13 17:09:06.400  INFO 197136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-13 17:09:06.760  INFO 197136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-13 17:09:06.979  INFO 197136 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-13 17:09:07.470  WARN 197136 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-13 17:09:07.586  INFO 197136 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-13 17:09:07.778  INFO 197136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:09:08.057  INFO 197136 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-11-13 17:09:08.071  INFO 197136 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-11-13 17:09:08.095  INFO 197136 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-11-13 17:09:08.190  INFO 197136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_1
+2019-11-13 17:09:08.197  INFO 197136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_2
+2019-11-13 17:09:08.227  INFO 197136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserUsingGET_1
+2019-11-13 17:09:08.234  INFO 197136 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPageUsingGET_1
+2019-11-13 17:09:08.278  INFO 197136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/PROMOD'
+2019-11-13 17:09:08.280  INFO 197136 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Started ProjectmoduleApplication in 5.387 seconds (JVM running for 6.042)
+2019-11-13 17:09:11.775  INFO 197136 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:09:11.776  INFO 197136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:09:11.787  INFO 197136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-11-13 17:09:11.824  WARN 197136 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "login"]
+2019-11-13 17:11:02.196  WARN 197136 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "login"]
+2019-11-13 17:11:19.258  INFO 197136 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/login
+2019-11-13 17:11:19.258  INFO 197136 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : method: POST
+2019-11-13 17:11:19.259  INFO 197136 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:11:19.260  INFO 197136 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : args: [, ]
+2019-11-13 17:11:19.262  INFO 197136 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.login
+2019-11-13 17:11:34.877  INFO 197136 --- [http-nio-8080-exec-7] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/login
+2019-11-13 17:11:34.877  INFO 197136 --- [http-nio-8080-exec-7] c.d.p.config.aop.ControllerLogAop        : method: POST
+2019-11-13 17:11:34.877  INFO 197136 --- [http-nio-8080-exec-7] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:11:34.877  INFO 197136 --- [http-nio-8080-exec-7] c.d.p.config.aop.ControllerLogAop        : args: [1, 1]
+2019-11-13 17:11:34.878  INFO 197136 --- [http-nio-8080-exec-7] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.login
+2019-11-13 17:11:48.976  INFO 197136 --- [http-nio-8080-exec-8] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/login
+2019-11-13 17:11:48.976  INFO 197136 --- [http-nio-8080-exec-8] c.d.p.config.aop.ControllerLogAop        : method: POST
+2019-11-13 17:11:48.976  INFO 197136 --- [http-nio-8080-exec-8] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:11:48.976  INFO 197136 --- [http-nio-8080-exec-8] c.d.p.config.aop.ControllerLogAop        : args: [admin, 123456]
+2019-11-13 17:11:48.976  INFO 197136 --- [http-nio-8080-exec-8] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.login
+2019-11-13 17:12:43.291  WARN 197136 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list"]
+2019-11-13 17:12:55.679  INFO 197136 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/list
+2019-11-13 17:12:55.680  INFO 197136 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : method: GET
+2019-11-13 17:12:55.682  INFO 197136 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:12:55.683  INFO 197136 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : args: []
+2019-11-13 17:12:55.684  INFO 197136 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.getUser
+2019-11-13 17:21:38.571  INFO 196676 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Starting ProjectmoduleApplication on ipanel-PC with PID 196676 (E:\ideaProject\projectmodule\target\classes started by Administrator in E:\ideaProject\projectmodule)
+2019-11-13 17:21:38.574  INFO 196676 --- [restartedMain] c.d.p.ProjectmoduleApplication           : No active profile set, falling back to default profiles: default
+2019-11-13 17:21:38.616  INFO 196676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-13 17:21:38.616  INFO 196676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-13 17:21:39.435  INFO 196676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:21:39.435  INFO 196676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:21:39.503  INFO 196676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 2 repository interfaces.
+2019-11-13 17:21:39.513  INFO 196676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:21:39.514  INFO 196676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:21:39.527  INFO 196676 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dlg.projectmodule.repo.UserRepo.
+2019-11-13 17:21:39.535  INFO 196676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
+2019-11-13 17:21:39.840  INFO 196676 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc9b9b50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:21:40.227  INFO 196676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:21:40.245  INFO 196676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-13 17:21:40.246  INFO 196676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 17:21:40.251  INFO 196676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:21:40.251  INFO 196676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:21:40.251  INFO 196676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:21:40.255  INFO 196676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:21:40.435  INFO 196676 --- [restartedMain] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring embedded WebApplicationContext
+2019-11-13 17:21:40.435  INFO 196676 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1818 ms
+2019-11-13 17:21:40.579  INFO 196676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-13 17:21:40.711  INFO 196676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-13 17:21:40.752  INFO 196676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-13 17:21:40.794  INFO 196676 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-13 17:21:40.796  INFO 196676 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-13 17:21:40.887  INFO 196676 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-13 17:21:41.013  INFO 196676 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-13 17:21:41.466  INFO 196676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-13 17:21:41.840  INFO 196676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-13 17:21:42.034  INFO 196676 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-13 17:21:42.301  WARN 196676 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-13 17:21:42.417  INFO 196676 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-13 17:21:42.689  INFO 196676 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:21:42.943  INFO 196676 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-11-13 17:21:42.957  INFO 196676 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-11-13 17:21:42.982  INFO 196676 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-11-13 17:21:43.078  INFO 196676 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_1
+2019-11-13 17:21:43.085  INFO 196676 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_2
+2019-11-13 17:21:43.116  INFO 196676 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserUsingGET_1
+2019-11-13 17:21:43.122  INFO 196676 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPageUsingGET_1
+2019-11-13 17:21:43.171  INFO 196676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/PROMOD'
+2019-11-13 17:21:43.173  INFO 196676 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Started ProjectmoduleApplication in 5.235 seconds (JVM running for 5.905)
+2019-11-13 17:21:49.762  INFO 196676 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:21:49.763  INFO 196676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:21:49.774  INFO 196676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-11-13 17:21:49.794  INFO 196676 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/list
+2019-11-13 17:21:49.794  INFO 196676 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : method: GET
+2019-11-13 17:21:49.795  INFO 196676 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:21:49.795  INFO 196676 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : args: []
+2019-11-13 17:21:49.796  INFO 196676 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.getUser
+2019-11-13 17:22:02.583  INFO 196676 --- [http-nio-8080-exec-3] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/list
+2019-11-13 17:22:02.583  INFO 196676 --- [http-nio-8080-exec-3] c.d.p.config.aop.ControllerLogAop        : method: GET
+2019-11-13 17:22:02.583  INFO 196676 --- [http-nio-8080-exec-3] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:22:02.583  INFO 196676 --- [http-nio-8080-exec-3] c.d.p.config.aop.ControllerLogAop        : args: []
+2019-11-13 17:22:02.583  INFO 196676 --- [http-nio-8080-exec-3] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.getUser
+2019-11-13 17:23:29.009  INFO 197192 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Starting ProjectmoduleApplication on ipanel-PC with PID 197192 (E:\ideaProject\projectmodule\target\classes started by Administrator in E:\ideaProject\projectmodule)
+2019-11-13 17:23:29.011  INFO 197192 --- [restartedMain] c.d.p.ProjectmoduleApplication           : No active profile set, falling back to default profiles: default
+2019-11-13 17:23:29.045  INFO 197192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-13 17:23:29.045  INFO 197192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-13 17:23:30.118  INFO 197192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:23:30.118  INFO 197192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:23:30.181  INFO 197192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 2 repository interfaces.
+2019-11-13 17:23:30.191  INFO 197192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:23:30.192  INFO 197192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:23:30.205  INFO 197192 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dlg.projectmodule.repo.UserRepo.
+2019-11-13 17:23:30.212  INFO 197192 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 1 repository interfaces.
+2019-11-13 17:23:30.519  INFO 197192 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$95460d47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:23:30.949  INFO 197192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:23:30.966  INFO 197192 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-13 17:23:30.966  INFO 197192 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 17:23:30.972  INFO 197192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:23:30.973  INFO 197192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:23:30.973  INFO 197192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:23:30.976  INFO 197192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:23:31.079  INFO 197192 --- [restartedMain] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring embedded WebApplicationContext
+2019-11-13 17:23:31.079  INFO 197192 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2034 ms
+2019-11-13 17:23:31.256  INFO 197192 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-13 17:23:31.368  INFO 197192 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-13 17:23:31.411  INFO 197192 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-13 17:23:31.453  INFO 197192 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-13 17:23:31.455  INFO 197192 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-13 17:23:31.557  INFO 197192 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-13 17:23:31.660  INFO 197192 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-13 17:23:32.059  INFO 197192 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-13 17:23:32.415  INFO 197192 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-13 17:23:32.609  INFO 197192 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-13 17:23:33.046  WARN 197192 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-13 17:23:33.163  INFO 197192 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-13 17:23:33.313  INFO 197192 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:23:33.567  INFO 197192 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-11-13 17:23:33.580  INFO 197192 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-11-13 17:23:33.605  INFO 197192 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-11-13 17:23:33.697  INFO 197192 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_1
+2019-11-13 17:23:33.704  INFO 197192 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_2
+2019-11-13 17:23:33.733  INFO 197192 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserUsingGET_1
+2019-11-13 17:23:33.740  INFO 197192 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPageUsingGET_1
+2019-11-13 17:23:33.784  INFO 197192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/PROMOD'
+2019-11-13 17:23:33.786  INFO 197192 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Started ProjectmoduleApplication in 5.203 seconds (JVM running for 5.837)
+2019-11-13 17:23:40.719  INFO 197192 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:23:40.719  INFO 197192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:23:40.730  INFO 197192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-11-13 17:23:40.996  INFO 197192 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/list
+2019-11-13 17:23:40.997  INFO 197192 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : method: GET
+2019-11-13 17:23:40.997  INFO 197192 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:23:40.997  INFO 197192 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : args: []
+2019-11-13 17:23:40.998  INFO 197192 --- [http-nio-8080-exec-1] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.getUser
+2019-11-13 17:23:49.200  WARN 197192 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.dlg.projectmodule.exception.UserException: token无效]
+2019-11-13 17:24:01.109  INFO 197192 --- [http-nio-8080-exec-4] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/list
+2019-11-13 17:24:01.109  INFO 197192 --- [http-nio-8080-exec-4] c.d.p.config.aop.ControllerLogAop        : method: GET
+2019-11-13 17:24:01.109  INFO 197192 --- [http-nio-8080-exec-4] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:24:01.109  INFO 197192 --- [http-nio-8080-exec-4] c.d.p.config.aop.ControllerLogAop        : args: []
+2019-11-13 17:24:01.110  INFO 197192 --- [http-nio-8080-exec-4] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.getUser
+2019-11-13 17:25:02.375  INFO 196352 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Starting ProjectmoduleApplication on ipanel-PC with PID 196352 (E:\ideaProject\projectmodule\target\classes started by Administrator in E:\ideaProject\projectmodule)
+2019-11-13 17:25:02.377  INFO 196352 --- [restartedMain] c.d.p.ProjectmoduleApplication           : No active profile set, falling back to default profiles: default
+2019-11-13 17:25:02.413  INFO 196352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-13 17:25:02.414  INFO 196352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-13 17:25:03.203  INFO 196352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:25:03.204  INFO 196352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:25:03.268  INFO 196352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 2 repository interfaces.
+2019-11-13 17:25:03.278  INFO 196352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-13 17:25:03.279  INFO 196352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-13 17:25:03.292  INFO 196352 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dlg.projectmodule.repo.UserRepo.
+2019-11-13 17:25:03.299  INFO 196352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 1 repository interfaces.
+2019-11-13 17:25:03.598  INFO 196352 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d498fe72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:04.049  INFO 196352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:25:04.068  INFO 196352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-13 17:25:04.069  INFO 196352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-13 17:25:04.074  INFO 196352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:25:04.075  INFO 196352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:25:04.075  INFO 196352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:25:04.078  INFO 196352 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:25:04.186  INFO 196352 --- [restartedMain] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring embedded WebApplicationContext
+2019-11-13 17:25:04.187  INFO 196352 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1773 ms
+2019-11-13 17:25:04.332  INFO 196352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-13 17:25:04.448  INFO 196352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-13 17:25:04.490  INFO 196352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-13 17:25:04.534  INFO 196352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-13 17:25:04.536  INFO 196352 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-13 17:25:04.642  INFO 196352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-13 17:25:04.749  INFO 196352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-13 17:25:05.221  INFO 196352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-13 17:25:05.589  INFO 196352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-13 17:25:05.797  INFO 196352 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-13 17:25:06.241  WARN 196352 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-13 17:25:06.389  INFO 196352 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-13 17:25:06.550  INFO 196352 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:25:06.808  INFO 196352 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-11-13 17:25:06.822  INFO 196352 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-11-13 17:25:06.845  INFO 196352 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-11-13 17:25:06.936  INFO 196352 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_1
+2019-11-13 17:25:06.942  INFO 196352 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBooksUsingGET_2
+2019-11-13 17:25:06.974  INFO 196352 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserUsingGET_1
+2019-11-13 17:25:06.981  INFO 196352 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserByPageUsingGET_1
+2019-11-13 17:25:07.024  INFO 196352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/PROMOD'
+2019-11-13 17:25:07.026  INFO 196352 --- [restartedMain] c.d.p.ProjectmoduleApplication           : Started ProjectmoduleApplication in 5.394 seconds (JVM running for 6.04)
+2019-11-13 17:25:10.695  INFO 196352 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/PROMOD]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:25:10.696  INFO 196352 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:25:10.709  INFO 196352 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-11-13 17:25:10.959  INFO 196352 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/list
+2019-11-13 17:25:10.959  INFO 196352 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : method: GET
+2019-11-13 17:25:10.959  INFO 196352 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:25:10.959  INFO 196352 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : args: []
+2019-11-13 17:25:10.961  INFO 196352 --- [http-nio-8080-exec-2] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.getUser
+2019-11-13 17:29:24.894  WARN 196352 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.dlg.projectmodule.exception.UserException: token无效]
+2019-11-13 17:29:29.762  INFO 196352 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : url: http://localhost:8080/PROMOD/user/list
+2019-11-13 17:29:29.762  INFO 196352 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : method: GET
+2019-11-13 17:29:29.763  INFO 196352 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : remote ip: 0:0:0:0:0:0:0:1
+2019-11-13 17:29:29.763  INFO 196352 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : args: []
+2019-11-13 17:29:29.764  INFO 196352 --- [http-nio-8080-exec-6] c.d.p.config.aop.ControllerLogAop        : method: com.dlg.projectmodule.controller.UserController.getUser

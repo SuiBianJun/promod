@@ -24,6 +24,17 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
     }
 
+    // 返回json错误
+    @ResponseBody
+    @ExceptionHandler(Exception.class)
+    public Response handleControllerExceptionOther(HttpServletRequest request, Throwable ex){
+
+        System.out.println("exception message: " + ex.toString());
+
+        return new Response(ex);
+
+    }
+
     // 返回页面错误
     /*@ExceptionHandler(GlobalException.class) // 同一exception只能对应一种方法
     public ModelAndView handleControllerExceptionPage(HttpServletRequest request, Throwable ex, ModelAndView mav){

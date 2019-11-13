@@ -1,4 +1,4 @@
-package com.dlg.projectmodule.anno;
+package com.dlg.projectmodule.config.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
