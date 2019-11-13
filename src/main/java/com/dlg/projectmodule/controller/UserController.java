@@ -1,5 +1,6 @@
 package com.dlg.projectmodule.controller;
 
+import com.dlg.projectmodule.anno.TokenIgnore;
 import com.dlg.projectmodule.request.UserInfo;
 import com.dlg.projectmodule.request.UserTablePageRequest;
 import com.dlg.projectmodule.request.page.TablePageRequest;
@@ -7,6 +8,8 @@ import com.dlg.projectmodule.response.Response;
 import com.dlg.projectmodule.response.UserVO;
 import com.dlg.projectmodule.response.page.PageResponse;
 import com.dlg.projectmodule.serviceimpl.UserServiceImpl;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,6 +22,7 @@ public class UserController {
     @Autowired
     UserServiceImpl userServiceImpl;
 
+    @ApiOperation(value = "获取所有用户")// 方法功能描述
     @GetMapping("list")
     public Response<List<UserVO>> getUser(){
         return new Response<>(userServiceImpl.listUser());
@@ -48,6 +52,7 @@ public class UserController {
         return new Response(userServiceImpl.addUser(userInfo));
     }
 
+    @TokenIgnore
     @GetMapping("/{userId}")
     public Response<UserVO> getUser(@PathVariable("userId") Integer userId) throws Exception {
         return new Response<>(userServiceImpl.user(userId));

@@ -11,9 +11,11 @@ public class GlobalException extends Exception {
         this.message = message;
     }
 
-//    从写getMessage，否则会拿到null的message
+//    重写getMessage，否则会拿到null的message
     @Override
     public String getMessage() {
         return this.message;
     }
+
+
 }
