@@ -41,8 +41,9 @@
 10、权限控制rbac
 
 11、任务调度
-    springboot 任务调度
+    springboot 定时任务 +
     springboot quartz 任务调度
+        动态添加定时任务，类似于设定时间执行某项任务，带数据
 
 12、时间处理
 
