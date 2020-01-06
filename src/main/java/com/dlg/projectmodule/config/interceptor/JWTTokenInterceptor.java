@@ -37,8 +37,9 @@ public class JWTTokenInterceptor implements HandlerInterceptor {// 使用JWT做T
             // token不存在，需要先登录
             // throw new UserException("token为空");
             // response.sendRedirect('/index.html');// 浏览器重定向
-            response.setContentType("text/html;charset=utf-8");
+            response.setContentType("application/json;charset=utf-8");// 设置返回内容的数据类型
             response.getWriter().print(JSON.toJSONString(new Response<>(301, "token为空")));// 返回json数据
+            return false;
         }
         // 获取 token 中的 user id
         String userId;

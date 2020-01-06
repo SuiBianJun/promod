@@ -20,11 +20,10 @@ public class UserSpecification implements Specification<User> {
 
     @Override
     public Predicate toPredicate(Root<User> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
-
         // 条件查询
-
-        Predicate predicate=criteriaBuilder.gt(root.get("id"), user.getId());
-
+        // 多条件组合
+        Predicate predicate = criteriaBuilder.conjunction();
+        predicate.getExpressions().add(criteriaBuilder.gt(root.get("id"), user.getId()));
         return predicate;
     }
 }

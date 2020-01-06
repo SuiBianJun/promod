@@ -20,8 +20,6 @@ import java.util.Arrays;
 @Order(20)
 public class ControllerLogAop {
 
-
-
     private static Logger logger = LoggerFactory.getLogger(ControllerLogAop.class);
 
     @Pointcut("execution(public * com.dlg.projectmodule.controller..*.*(..))")//切入点描述 这个是controller包的切入点

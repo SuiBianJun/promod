@@ -54,7 +54,7 @@ public class UserController {
         return new Response(userServiceImpl.addUser(userInfo));
     }
 
-    @TokenIgnore
+    //@TokenIgnore
     @GetMapping("/{userId}")
     public Response<UserVO> getUser(@PathVariable("userId") Integer userId) throws Exception {
         return new Response<>(userServiceImpl.user(userId));
