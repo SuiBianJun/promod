@@ -31,7 +31,7 @@
  
     SpringMVC配置
     
-a、springboot编译打包成可在tomcat上运行的war包
+a、springboot编译打包成可在tomcat上运行的war包 + (ProjectmoduleApplicationTomcat.java)
     1、修改启动类
     2、排除tomcat依赖
     3、添加servlet-api依赖
@@ -53,6 +53,11 @@ a、springboot编译打包成可在tomcat上运行的war包
     springboot quartz 任务调度
         动态添加定时任务，类似于设定时间执行某项任务，带数据
 
-12、时间处理
+12、时间处理 +
 
 13、sso、cas
+    sso: 用户在一个系统中登录后，即可直接访问其他相互信任的系统
+
+------------------------------------
+
+不同模块添加swagger的测试接口
