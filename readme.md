@@ -47,6 +47,7 @@ a、springboot编译打包成可在tomcat上运行的war包 + (ProjectmoduleAppl
     使用Configration配置或者使用Filter
 
 10、权限控制rbac
+    shiro权限认证框架(https://www.iteye.com/blog/jinnianshilongnian-2018398   https://github.com/zhangkaitao/shiro-example)
 
 11、任务调度
     springboot 定时任务 +
